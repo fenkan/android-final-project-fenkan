@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Breed</string>
+    <string name="breed">Breed</string>
+    <string name="random_dog_pic">Random Dog Picture</string>
+    <string name="popular_routes">Popular Routes</string>
+    <string name="search_dog_breed">Search Dog Breed</string>
+    <string name="breed_icon">Breed Icon</string>
+    <string name="cannot_be_empty">Cannot be empty</string>
+    <string name="unable_to_get_breed">Unable to get breed</string>
+    <string name="internal_server_error">Internal Server Error</string>
+    <string name="unauthorized">Unauthorized</string>
+    <string name="forbidden">Forbidden</string>
+    <string name="user_not_found">User not found</string>
+    <string name="try_another_user">Try another User</string>
+    <string name="breed_picture_data">%1$d Response</string>
+    <string name="unable_to_get_picture">Unable to get picture</string>
+    <string name="all_breeds">All Breeds</string>
+    <string name="unable_to_read_breed_list">Unable to read breed list</string>
 </resources>

@@ -4,46 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="@drawable/hund"
     android:gravity="center"
-    android:background="@drawable/my_background"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity">
 
-    <ImageView
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:layout_marginLeft="60dp"
-        android:background="@drawable/running_man_24" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="160dp"
         android:fontFamily="serif-monospace"
-        android:text="RUN TRACKER"
+        android:text="@string/breed"
         android:textColor="@color/black"
-        android:textSize="30dp" />
+        android:textSize="50sp" />
 
     <Button
-        android:id="@+id/start_running_buttun"
+        android:id="@+id/main_activity_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="60dp"
         android:layout_marginRight="50dp"
         android:backgroundTint="#1E2A78"
-        android:text="Start Running"
+        android:text="@string/random_dog_pic"
         app:icon="@color/black"
         app:iconTint="@color/black" />
 
-    <Button
-        android:id="@+id/popular_routes_button"
-        android:layout_width="match_parent"
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/main_activity_edit_text"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Popular routes"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        android:layout_marginTop="20sp"
-        android:backgroundTint="#1E2A78"/>
+        android:layout_marginTop="20dp"
+        android:hint="@string/search_dog_breed"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:maxLines="1"
+        android:textColorHint="@color/white" />
 
 
 </LinearLayout>
