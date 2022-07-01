@@ -8,33 +8,33 @@ import kotlinx.android.parcel.Parcelize
 @Parcelize
 data class Message(
     @SerializedName("affenpinscher")
-    val affenpinscher: List<Any>? = null,
+    val affenpinscher: List<String>? = null,
     @SerializedName("african")
-    val african: List<Any>? = null,
+    val african: List<String>? = null,
     @SerializedName("airedale")
-    val airedale: List<Any>? = null,
+    val airedale: List<String>? = null,
     @SerializedName("akita")
-    val akita: List<Any>? = null,
+    val akita: List<String>? = null,
     @SerializedName("appenzeller")
-    val appenzeller: List<Any>? = null,
+    val appenzeller: List<String>? = null,
     @SerializedName("australian")
     val australian: List<String>? = null,
     @SerializedName("basenji")
-    val basenji: List<Any>? = null,
+    val basenji: List<String>? = null,
     @SerializedName("beagle")
-    val beagle: List<Any>? = null,
+    val beagle: List<String>? = null,
     @SerializedName("bluetick")
-    val bluetick: List<Any>? = null,
+    val bluetick: List<String>? = null,
     @SerializedName("borzoi")
-    val borzoi: List<Any>? = null,
+    val borzoi: List<String>? = null,
     @SerializedName("bouvier")
-    val bouvier: List<Any>? = null,
+    val bouvier: List<String>? = null,
     @SerializedName("boxer")
-    val boxer: List<Any>? = null,
+    val boxer: List<String>? = null,
     @SerializedName("brabancon")
-    val brabancon: List<Any>? = null,
+    val brabancon: List<String>? = null,
     @SerializedName("briard")
-    val briard: List<Any>? = null,
+    val briard: List<String>? = null,
     @SerializedName("buhund")
     val buhund: List<String>? = null,
     @SerializedName("bulldog")
@@ -44,159 +44,159 @@ data class Message(
     @SerializedName("cattledog")
     val cattledog: List<String>? = null,
     @SerializedName("chihuahua")
-    val chihuahua: List<Any>? = null,
+    val chihuahua: List<String>? = null,
     @SerializedName("chow")
-    val chow: List<Any>? = null,
+    val chow: List<String>? = null,
     @SerializedName("clumber")
-    val clumber: List<Any>? = null,
+    val clumber: List<String>? = null,
     @SerializedName("cockapoo")
-    val cockapoo: List<Any>? = null,
+    val cockapoo: List<String>? = null,
     @SerializedName("collie")
     val collie: List<String>? = null,
     @SerializedName("coonhound")
-    val coonhound: List<Any>? = null,
+    val coonhound: List<String>? = null,
     @SerializedName("corgi")
     val corgi: List<String>? = null,
     @SerializedName("cotondetulear")
-    val cotondetulear: List<Any>? = null,
+    val cotondetulear: List<String>? = null,
     @SerializedName("dachshund")
-    val dachshund: List<Any>? = null,
+    val dachshund: List<String>? = null,
     @SerializedName("dalmatian")
-    val dalmatian: List<Any>? = null,
+    val dalmatian: List<String>? = null,
     @SerializedName("dane")
     val dane: List<String>? = null,
     @SerializedName("deerhound")
     val deerhound: List<String>? = null,
     @SerializedName("dhole")
-    val dhole: List<Any>? = null,
+    val dhole: List<String>? = null,
     @SerializedName("dingo")
-    val dingo: List<Any>? = null,
+    val dingo: List<String>? = null,
     @SerializedName("doberman")
-    val doberman: List<Any>? = null,
+    val doberman: List<String>? = null,
     @SerializedName("elkhound")
     val elkhound: List<String>? = null,
     @SerializedName("entlebucher")
-    val entlebucher: List<Any>? = null,
+    val entlebucher: List<String>? = null,
     @SerializedName("eskimo")
-    val eskimo: List<Any>? = null,
+    val eskimo: List<String>? = null,
     @SerializedName("finnish")
     val finnish: List<String>? = null,
     @SerializedName("frise")
     val frise: List<String>? = null,
     @SerializedName("germanshepherd")
-    val germanshepherd: List<Any>? = null,
+    val germanshepherd: List<String>? = null,
     @SerializedName("greyhound")
     val greyhound: List<String>? = null,
     @SerializedName("groenendael")
-    val groenendael: List<Any>? = null,
+    val groenendael: List<String>? = null,
     @SerializedName("havanese")
-    val havanese: List<Any>? = null,
+    val havanese: List<String>? = null,
     @SerializedName("hound")
     val hound: List<String>? = null,
     @SerializedName("husky")
-    val husky: List<Any>? = null,
+    val husky: List<String>? = null,
     @SerializedName("keeshond")
-    val keeshond: List<Any>? = null,
+    val keeshond: List<String>? = null,
     @SerializedName("kelpie")
-    val kelpie: List<Any>? = null,
+    val kelpie: List<String>? = null,
     @SerializedName("komondor")
-    val komondor: List<Any>? = null,
+    val komondor: List<String>? = null,
     @SerializedName("kuvasz")
-    val kuvasz: List<Any>? = null,
+    val kuvasz: List<String>? = null,
     @SerializedName("labradoodle")
-    val labradoodle: List<Any>? = null,
+    val labradoodle: List<String>? = null,
     @SerializedName("labrador")
-    val labrador: List<Any>? = null,
+    val labrador: List<String>? = null,
     @SerializedName("leonberg")
-    val leonberg: List<Any>? = null,
+    val leonberg: List<String>? = null,
     @SerializedName("lhasa")
-    val lhasa: List<Any>? = null,
+    val lhasa: List<String>? = null,
     @SerializedName("malamute")
-    val malamute: List<Any>? = null,
+    val malamute: List<String>? = null,
     @SerializedName("malinois")
-    val malinois: List<Any>? = null,
+    val malinois: List<String>? = null,
     @SerializedName("maltese")
-    val maltese: List<Any>? = null,
+    val maltese: List<String>? = null,
     @SerializedName("mastiff")
     val mastiff: List<String>? = null,
     @SerializedName("mexicanhairless")
-    val mexicanhairless: List<Any>? = null,
+    val mexicanhairless: List<String>? = null,
     @SerializedName("mix")
-    val mix: List<Any>? = null,
+    val mix: List<String>? = null,
     @SerializedName("mountain")
     val mountain: List<String>? = null,
     @SerializedName("newfoundland")
-    val newfoundland: List<Any>? = null,
+    val newfoundland: List<String>? = null,
     @SerializedName("otterhound")
-    val otterhound: List<Any>? = null,
+    val otterhound: List<String>? = null,
     @SerializedName("ovcharka")
     val ovcharka: List<String>? = null,
     @SerializedName("papillon")
-    val papillon: List<Any>? = null,
+    val papillon: List<String>? = null,
     @SerializedName("pekinese")
-    val pekinese: List<Any>? = null,
+    val pekinese: List<String>? = null,
     @SerializedName("pembroke")
-    val pembroke: List<Any>? = null,
+    val pembroke: List<String>? = null,
     @SerializedName("pinscher")
     val pinscher: List<String>? = null,
     @SerializedName("pitbull")
-    val pitbull: List<Any>? = null,
+    val pitbull: List<String>? = null,
     @SerializedName("pointer")
     val pointer: List<String>? = null,
     @SerializedName("pomeranian")
-    val pomeranian: List<Any>? = null,
+    val pomeranian: List<String>? = null,
     @SerializedName("poodle")
     val poodle: List<String>? = null,
     @SerializedName("pug")
-    val pug: List<Any>? = null,
+    val pug: List<String>? = null,
     @SerializedName("puggle")
-    val puggle: List<Any>? = null,
+    val puggle: List<String>? = null,
     @SerializedName("pyrenees")
-    val pyrenees: List<Any>? = null,
+    val pyrenees: List<String>? = null,
     @SerializedName("redbone")
-    val redbone: List<Any>? = null,
+    val redbone: List<String>? = null,
     @SerializedName("retriever")
     val retriever: List<String>? = null,
     @SerializedName("ridgeback")
     val ridgeback: List<String>? = null,
     @SerializedName("rottweiler")
-    val rottweiler: List<Any>? = null,
+    val rottweiler: List<String>? = null,
     @SerializedName("saluki")
-    val saluki: List<Any>? = null,
+    val saluki: List<String>? = null,
     @SerializedName("samoyed")
-    val samoyed: List<Any>? = null,
+    val samoyed: List<String>? = null,
     @SerializedName("schipperke")
-    val schipperke: List<Any>? = null,
+    val schipperke: List<String>? = null,
     @SerializedName("schnauzer")
     val schnauzer: List<String>? = null,
     @SerializedName("setter")
     val setter: List<String>? = null,
     @SerializedName("sharpei")
-    val sharpei: List<Any>? = null,
+    val sharpei: List<String>? = null,
     @SerializedName("sheepdog")
     val sheepdog: List<String>? = null,
     @SerializedName("shiba")
-    val shiba: List<Any>? = null,
+    val shiba: List<String>? = null,
     @SerializedName("shihtzu")
-    val shihtzu: List<Any>? = null,
+    val shihtzu: List<String>? = null,
     @SerializedName("spaniel")
     val spaniel: List<String>? = null,
     @SerializedName("springer")
     val springer: List<String>? = null,
     @SerializedName("stbernard")
-    val stbernard: List<Any>? = null,
+    val stbernard: List<String>? = null,
     @SerializedName("terrier")
     val terrier: List<String>? = null,
     @SerializedName("tervuren")
-    val tervuren: List<Any>? = null,
+    val tervuren: List<String>? = null,
     @SerializedName("vizsla")
-    val vizsla: List<Any>? = null,
+    val vizsla: List<String>? = null,
     @SerializedName("waterdog")
     val waterdog: List<String>? = null,
     @SerializedName("weimaraner")
-    val weimaraner: List<Any>? = null,
+    val weimaraner: List<String>? = null,
     @SerializedName("whippet")
-    val whippet: List<Any>? = null,
+    val whippet: List<String>? = null,
     @SerializedName("wolfhound")
     val wolfhound: List<String>? = null
 ): Parcelable

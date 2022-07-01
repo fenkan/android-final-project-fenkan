@@ -8,7 +8,7 @@ import kotlinx.android.parcel.Parcelize
 @Parcelize
 data class AllBreeds(
     @SerializedName("message")
-    val message: Message? = null,
+    val message: List<String>? = null,
     @SerializedName("status")
     val status: String? = null
 ): Parcelable
